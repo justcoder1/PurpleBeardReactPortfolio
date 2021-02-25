@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	overflow: hidden;
+	font-family: 'Roboto', sans-serif;
+}
+
+.contents,
+.sidenav,
+.navitem {
+	/* border: 0.5px dashed grey; */
+}
+
+.App {
+	width: 100vw;
+	display: flex;
+}
+
+.sidenav {
+	width: 30vw;
+	background-image: linear-gradient(to bottom, #de5588 50%, #7f74ee 80%);
+	color: white;
+	font-size: 1.5rem;
+	padding: 3em;
+}
+
+.sidenav li {
+	list-style-type: none;
+}
+
+.contents {
+	/* width: 70vw; */
+	flex: 1;
+}
+
+.sidenav,
+.contents {
+	height: 100vh;
+}
+
+.navitem {
+	margin: 1.5rem auto;
+	text-align: center;
+}
+
+.navitem:hover {
+	font-weight: bold;
+}
+
+.navitem-text {
+	text-decoration: none;
+	color: honeydew;
+}
+
+.Active {
+	font-weight: bold;
+}
+
+.contents {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 2px solid black;
+	align-items: center;
+}
+
+.contents img {
+	border-radius: 50%;
+	border: 3px solid #7f74ee;
+	width: 12rem;
+	height: 12rem;
+}
+
+#typeEffect {
+	margin: 5rem;
+	font-size: 2em;
+	font-weight: 500;
+	color: #7f74ee;
+}
+
+.social a {
+	margin: 1rem;
+	font-size: 2rem;
+}
+
+.about {
+	margin: 2rem;
+}
+
+.education {
+	margin: 2rem;
+}
+
+.widecard {
+	margin: 1rem;
+	padding: 1rem;
+	box-shadow: 10px 10px 10px lightgray;
+}
+
+.widecard:hover {
+	box-shadow: 15px 15px 10px black;
+}
+
+.skills {
+	margin: 2rem;
+}
+
+.skills li {
+	list-style-type: none;
+}
